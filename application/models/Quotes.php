@@ -10,7 +10,9 @@ class Quotes extends MY_Model {
 
     // Constructor
     public function __construct() {
-       parent::__construct('quotes', 'id');	
+        //make model from the RDB table corresponding to tablename and PK field parameters
+        //this RDB table can be accessed through this model via methods such as get(), etc.
+       parent::__construct('quotes', 'id'); 
     }
     
     // retrieve the most recently added quote

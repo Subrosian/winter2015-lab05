@@ -3,6 +3,9 @@
 // location of data folders
 define('DATA_FOLDER', './data');
 
+// HTML shorthand
+define('BR', '<br/>');
+
 /*
 |--------------------------------------------------------------------------
 | File Stream Modes
